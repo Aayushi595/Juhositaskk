@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Form</title>
+</head>
+<body>
+    
+    <form action="" method="post">
+        
+        <label for="orderDate">Order Date:</label>
+        <input type="date" id="orderDate" name="ordt" required><br><br>
+
+        <label for="company">Company:</label>
+        <input type="text" id="company" name="cmpny" pattern="[A-Za-z0-9]+" required><br><br>
+
+        <label for="owner">Owner:</label>
+        <input type="text" id="owner" name="ownr" pattern="[A-Za-z0-9]+" required><br><br>
+
+        <label for="item">Item:</label>
+        <input type="text" id="item" name="itm"  pattern="[A-Za-z]+"required><br><br>
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="qnantity" name="qntity" pattern="[0-9]+"required><br><br>
+
+        <label for="weight">Weight:</label>
+        <input type="float" id="weight" name="wght" pattern="^\d+(\.\d+)?$"required><br><br>
+
+        <label for="requestForShipment">Request for Shipment:</label>
+        <input type="text" id="requestForShipment" name="reqForShipmnt" pattern="[A-Za-z]+"required><br><br>
+
+        <label for="trackingId">Tracking ID:</label>
+        <input type="text" id="trackingId" name="trkngId" pattern="[A-Za-z]+"required><br><br>
+
+        <label for="shipmentSize">Shipment Size:</label>
+        <input type="text" id="shipmentSize" name="ShpmtSiz" pattern="^\d+(\.\d+)?\*\d+(\.\d+)?\*\d+(\.\d+)?$"required><br><br>
+
+        <label for="boxCount">Box Count:</label>
+        <input type="number" id="boxCount" name="bxCt" pattern="[0-9]+"required><br><br>
+
+        <label for="specification">Specification:</label>
+        <input type="text" id="specification" name="specification" pattern="[A-Za-z]+"required><br><br>
+
+        <label for="checklistQuantity">Checklist Quantity:</label>
+        <input type="number" id="checklistQuantity" name="chklstqntity" pattern="[A-Za-z]+"required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

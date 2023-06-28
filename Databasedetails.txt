@@ -1,0 +1,23 @@
+------------------For running on local host :-------------------------------------
+
+
+-->Database name is provided in the code as : Juhosidb
+-->provide the user value in the connection parameters in line 6 views.py
+
+
+-->Name of the db table that stores customer info being used in the code is as 'customertable'
+and column nmaes are: 
+ORDERDATE,
+COMPANY,
+OWNER,
+ITEM,
+QUANTITY,
+WEIGHT,
+REQUESTFORSHIPMENT,
+TRACKINGID,
+SHIPMENTSIZE,
+BOXCOUNT,
+SPECIFICATION,
+CHECKLISTQUANTITY
+
+--> Dummy values  in auth tables are (customer1 , pass1) and (customer2 , pass2 )and (admin ,adminpass)

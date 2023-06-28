@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Admin Page</title>
+    </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Cust1</th>
+          <th>Cust2</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in data %}
+          <tr>
+            <td>{{ row.item }}</td>
+            <td>{{ row.cust1 }}</td>
+            <td>{{ row.cust2 }}</td>
+            <td>{{ row.cust1 + row.cust2 }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </body>
+</html>
